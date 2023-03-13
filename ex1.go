@@ -1,10 +1,11 @@
-package main //Contains reference to main Go package 
+package main //Contains reference to main Go package
 
 import ( //imports modules
 	"fmt" // output method
-) 
+)
 
-func main() { //La funció main acompanya el package i només es defineix un cop, aglutinant
-	//la sintaxis principal del script.
-	fmt.Println("Hola món")
+// the main() fn comes with the package main and gets defined just once
+func main() {
+	//script's main syntax
+	fmt.Println("Hello World")
 }
